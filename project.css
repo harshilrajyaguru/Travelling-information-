@@ -1,0 +1,184 @@
+body{
+    margin: 0%;}
+.para{
+    font-family: Klarna Display,Helvetica Neue,Arial,Helvetica,sans-serif;
+    color:white}
+.main{
+    font-size: 100px;
+    font-weight: bolder;
+    font-family: Chalkduster;
+    color:rgb(246, 230, 89);}
+.bg{
+    padding: 200px;
+    background-image: url("Photos/photo1.jpg");
+    background-size: 1440px;
+    height: 250px;
+}
+@media (max-width:900px){
+    .main{
+        font-size: 90px;
+    }
+    .para{
+        font-size: 15px;
+    }
+    .bg{
+        padding-left: 20px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        text-align:left;
+        background-size:cover;
+        height: 100%;
+    }
+}
+.end{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: black;
+    color:rgba(255, 255, 255, 0.891);}
+table{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    margin-left: 15%;
+    text-align:left;
+    border-spacing: 20px;}
+td a{
+    text-decoration: none;
+    border-spacing: 200px;
+    color:rgba(255, 255, 255, 0.509)}
+td a:hover{
+    color: white;}
+.hr{
+    width: 80%}
+.logo{
+    width: 40px;
+    float: right;
+    margin-right: 60px;}
+.logo:hover{
+    width: 50px;}
+.logo1{
+    width: 45px;
+    float: right;}
+.logo1:hover{
+    width: 55px;}
+.p1{
+    display:inline-block;
+    margin-right: 50px;}
+.p2{
+    display:inline-block;
+    margin-right: 50px;}
+.p3{
+    display:inline-block;
+    margin-right: 50px;}
+.calander{
+    width: 130px;}
+.clock{
+    width: 130px;}
+.notepad{
+    width: 110px;}
+.info{
+    text-align: center;
+    margin: 100px;}
+.infoh1{
+    font-family: Klarna Display,Helvetica Neue,Arial,Helvetica,sans-serif;
+    font-size: 60px;}
+.infop{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
+.login{
+    width: 1420px;
+    position:fixed;
+    padding-bottom: 20px;
+    background-color:white;
+    padding-right: 30px;
+    padding-top: 30px;
+    text-align: right;}
+.loc1{
+    width: 250px;
+    border-radius: 15px;
+}
+.loc2{
+    width: 250px;
+    border-radius: 15px;    
+}
+.loc3{
+    width: 255px;
+    border-radius: 15px;    
+}
+.pic{
+    margin-top: 100px;
+    margin-left: 50px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.pic:hover{
+    transform: scale(1.1);
+}
+.infop1{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.maps{
+    color:sienna;
+}
+.maps:hover{
+    color:deepskyblue;
+}
+.ul{
+    width: 100%;
+    position:fixed;
+    background-color: rgb(59, 58, 58);
+    margin: 0px;
+    padding: 0px; 
+    text-align: right;   
+}
+.li{
+    display: inline-block;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.li:hover{
+    background-color: blue;
+}
+.li a{
+    text-decoration: none;
+    color: white;
+}
+.final{
+    text-align: center;
+    margin: 50px;
+    height: 600px;
+    border: 5px solid;
+    border-radius: 30px;
+}
+.final_photo{
+    padding-top: 2px;
+    padding-left: 15px;
+    width: 40%;
+    height: 99%;
+    float: left;
+    border-radius: 10px;
+}
+.heading{
+    font-family: Klarna Display,Helvetica Neue,Arial,Helvetica,sans-serif;
+    font-size:40px;
+    font-weight: 900;
+    margin-top: 15%;
+}
+#des{
+    width: 50%;
+    font-size: 25px;
+}
+.submit{
+    border-radius: 5px;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.submit:hover{
+    background-color: black;
+    color: greenyellow;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Login</h1>
+      <form method="post">
+        <div class="txt_field">
+          <input type="text" id="user" required>
+          <span></span>
+          <label>Username</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" id="pass" required>
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="pass">Forgot Password?</div>
+        <input type="submit" onclick="auth()">
+        <div class="signup_link">
+          Not a member? <a href="sign.html">Signup</a>
+        </div>
+      </form>
+    </div>
+    <script>
+      function auth(){
+        var a = document.getElementById("user").value;
+        var b = document.getElementById("pass").value;
+        if(a == "adi@gmail.com" && b=="1"){
+          alert("K");
+          window.location.assign("project.html");
+          return;
+        }
+        else{
+          window.location.assign("project.html");
+          return;
+        }
+      }
+    </script>
+  </body>
+</html>
